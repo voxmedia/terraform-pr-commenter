@@ -8,6 +8,7 @@ LABEL repository="https://github.com/robburger/terraform-pr-commenter" \
       com.github.actions.icon="git-pull-request" \
       com.github.actions.color="purple"
 
+RUN apk upgrade
 RUN apk add --no-cache -q \
     bash \
     curl \
